@@ -1,0 +1,93 @@
+.userTable {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.userTable td,
+.userTable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.userTable tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.userTable tr:hover {
+  background-color: #ddd;
+}
+
+.userTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04aa6d;
+  color: white;
+}
+body,
+.header p {
+  margin: 0;
+}
+.header {
+  width: auto;
+  height: 50px;
+  background-color: aqua;
+}
+.footer {
+  width: auto;
+  height: 50px;
+  background-color: aqua;
+  text-align: center;
+  padding: 10px 0;
+}
+.imgConatiner {
+  width: 200px;
+}
+.authorImage {
+  width: 100%;
+  border-radius: 50%;
+}
+button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  background-color: #c7b9d6;
+  border: 1px solid #521495;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+.temperature-conainer {
+  display: flex;
+	justify-content: center;
+	align-items: center;
+  height: 400px;
+	width: 300px;
+	background: #2b5870;
+	border-radius: 20px;
+	box-shadow: 10px 10px 38px 0px rgba(0, 0, 0, 0.75);
+}
+.temperature-display {
+  display: flex;
+	border-radius: 50%;
+	color: #ffffff;
+	height: 220px;
+	width: 220px;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	font-size: 48px;
+	border: 3px #ffffff solid;
+	transition: background 0.5s;
+}
+.cold {
+  background-color: #04aa6d;
+}
+.hot {
+  background-color: #7a215d;
+}
+.imagepanel{
+  width: 250px;
+  padding: 20px;
+  box-shadow: 1px 1px 1px 1px #e2e2e2ad;
+  border: 1px solid #ccc;
+}
